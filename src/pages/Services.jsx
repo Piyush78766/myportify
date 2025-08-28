@@ -60,7 +60,7 @@ export default function Services() {
     }
   };
   return (
-    <div className='services'>
+    <div className='services' id='services'>
         <div className='intro'>
             <EditableText compont='Services' field='Heading' text={"My Expert Areas"}  className={"myh"}/>
             <br/>

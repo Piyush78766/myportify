@@ -84,6 +84,17 @@ body {
   width: 60%;
   justify-content: space-between;
 }
+.navpanel li {
+  cursor: pointer;
+}
+.navpanel a {
+  color: white;
+  text-decoration: none;
+}
+
+.navpanel a:hover {
+  color: orangered; 
+}
 #addbtn{
   border: 4px dotted orange;
   color: orange;

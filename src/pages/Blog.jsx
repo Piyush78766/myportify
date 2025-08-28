@@ -4,7 +4,7 @@ import EditableText from '../components/Common/EditAbleText'
 import AddButton from '../components/Common/AddButton'
 export default function Blog() {
   return (
-    <div className='blogmain'>
+    <div className='blogmain' id='blog'>
       <div>
         <div>
             <EditableText compont='Blog' field='Heading' text={"Blog <span class='special'>About</span> \n<br/> Personal Portfolio"} className={"blogheading"}/>

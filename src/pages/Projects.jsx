@@ -47,7 +47,7 @@ const [selected,setSelected] = useState("All");
   
 
   return (
-    <div className='services'>
+    <div className='services' id='project'>
         <div className='intro'>
                 <div className='smallheading'><h6>My Portfolio</h6><img  src='/icons/bow.png'/></div>
 

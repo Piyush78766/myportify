@@ -14,7 +14,7 @@ export default function HeroSection() {
         className=''
       >
         <Header/>
-        <div className="outer ">
+        <div className="outer " id='hero'>
           
           <div className="inner  ">
            

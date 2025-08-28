@@ -114,13 +114,27 @@ const openPanelAt = (e) => {
     {
             btns.map((btn, i) => {
   const sizeStyle = sizeMap[btn.btnsize] || sizeMap.medium;
+const formatHref = (href) => {
+  if (
+    href.startsWith("http://") ||
+    href.startsWith("https://") ||
+    href.startsWith("mailto:") ||
+    href.startsWith("tel:") ||
+    href.startsWith("#")
+  ) {
+    return href;
+  }
+  return `https://${href}`;
+};
+
+const isInternalId = (href) => href.startsWith("#");
 
   return (
     <div key={i} style={{ margin: "18px 10px", display: "flex", alignItems: "center",width:'fit',borderRadius:btn.rounded || "0px" }} >
       <a
-        href={btn.btnhref}
-        target="_blank"
-        rel="noopener noreferrer"
+       href={formatHref(btn.btnhref)}
+        target={isInternalId(btn.btnhref) ? "_self" : "_blank"}
+      rel={isInternalId(btn.btnhref) ? undefined : "noopener noreferrer"}
         style={{
           display: "inline-flex",
           alignItems: "center",

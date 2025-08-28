@@ -4,7 +4,7 @@ import EditableText from '../components/Common/EditAbleText'
 import AddButton from '../components/Common/AddButton'
 export default function AboutUs() {
   return (
-    <div className='main'>
+    <div className='main' id='about'>
       <div className='intro ' >
             <div className='box '>
                 <div className='mainbox'>
