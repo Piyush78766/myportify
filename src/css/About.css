@@ -1,0 +1,147 @@
+.main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+}
+.box{
+    flex: 0.45;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    flex: 0.55;
+    height: 100%;
+
+}
+.mainbox{
+    height: 85%;
+    width: 70%;
+    position: relative;
+
+}
+.frect,.srect{
+    width: 65%;
+    height: 75%;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+}
+.frect{
+    top: 0;
+    right: 0;
+}
+.srect{
+    bottom: 0;
+    left: 0;
+}
+ .mainbox > .content >p > span{
+    color: orangered;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.mainbox  > .content >p{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    flex-wrap: wrap;
+} 
+.mainbox >.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-radius: 70px;
+    bottom: 0;
+    background: transparent;
+    height: 30%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.mainbox >.content2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 70px;
+    bottom: 0;
+    background: transparent;
+    height: 30%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-top: 30px;
+
+}
+.mainbox >.content2 >ul{
+    list-style: none;
+}
+
+.intro >.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+}
+.intro >.content > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.intro >.content > div >img{
+    width: 50px;
+}
+.abtext{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.abtext2{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main2 > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main2 > ul > li {
+    width: calc(50% - 10px); 
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.main2 > ul > li > img {
+    margin-right: 10px;
+    width: 20px; 
+    height: 20px;
+}

@@ -1,0 +1,41 @@
+.exploremain{
+     background: radial-gradient(circle at bottom left, #FA614F70, transparent 20%),
+              radial-gradient(circle at top right, rgba(128, 0, 64, 0.8), transparent 40%),
+              linear-gradient(180deg, #1d0144, #1a0026);
+     padding: 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.exwhitebox{
+    width: 80%;
+    height: 200px;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.exsecond,.exwhiteinner{
+    flex:1;
+}
+.exsecond{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 20px;
+    position: relative;
+}
+.exh1{
+    font-weight: 700;
+    color: #1a0026;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.exsimg{
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+    width: 50px;
+
+}

@@ -1,0 +1,26 @@
+.panel-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panel-container div{
+    margin-right: 10px;
+}
+.panel-text-title {
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+.panel-text-subtitle {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  text-align: left;
+  font-family: sans-serif;
+}
+.panel-input{
+  width: 40%;
+}

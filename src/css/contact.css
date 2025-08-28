@@ -1,0 +1,221 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #1b1124;
+  color: #fff;
+}
+
+/* Container */
+.contactcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Left Side */
+.contactinfo {
+  width: 40%;
+}
+
+.contactheading {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+.contactbox{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contactbox > img {
+    width: 30px;
+}
+
+.contactimgicon{
+    width: 30px;
+}
+.textholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grayheading{
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+.whiteheading{
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+}
+.contacttext {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 16px;
+    font-weight: 500;
+}
+
+.infobox p {
+  margin: 12px 0;
+  font-size: 0.95rem;
+}
+
+.infobox i {
+  color: #ff3c3c;
+  margin-right: 10px;
+}
+
+/* Social Media */
+.socialmedia {
+  margin-top: 20px;
+}
+
+.socialmedia p {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.icons  {
+ display: flex; 
+ gap: 10px;
+ transition: all 0.5s;
+}
+
+.icons img{
+ transition: all 0.5s;
+ cursor: pointer;
+
+}
+.icons img:hover {
+  transform: scale(1.01);
+}
+
+/* Right Side (Form) */
+.contactform {
+  width: 55%;
+
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.formheading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 0.9rem;
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  background: #fff;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.submitbtn {
+  margin-top: 15px;
+  padding: 12px;
+  background: transparent;
+  color: #ff3c3c;
+  border: 1px solid #ff3c3c;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submitbtn:hover {
+  background: #ff3c3c;
+  color: #fff;
+}
+
+.contactformheading{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.contactformheading >h2{
+  margin-top: 20px;
+}
+.contactformheading > img{
+  height: 10px;
+}
+.contactformmain > input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contactformmain > input::placeholder {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.contactformmain > input:not(:placeholder-shown) {
+  background: white;
+  color: black;
+  border-color: white;
+}
+
+.contactformmain > input:not(:placeholder-shown)::placeholder {
+  color: transparent; 
+}
+
+.contactformmain > textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  outline: none;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.contactformmain > textarea::placeholder {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.contactformmain > textarea:not(:placeholder-shown) {
+  background: white;
+  color: black;
+  border-color: white;
+}
+
+.contactformmain > textarea:not(:placeholder-shown)::placeholder {
+  color: transparent;
+}

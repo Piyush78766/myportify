@@ -1,0 +1,19 @@
+.fmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+ .flast{
+    display: flex;
+    gap: 10px;
+    font-weight: 400;
+ }
+ .flast > .p{
+    color: orangered;
+ }
+ .flast:nth-child(2){
+    color: white;
+ }
+ 

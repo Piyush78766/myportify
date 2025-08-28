@@ -1,0 +1,66 @@
+.editable-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.edit-btn {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 2px 6px;
+  font-size: 12px;
+  cursor: pointer;
+  z-index: 1000;
+  background: transparent;
+}
+
+.overlay-panel {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  z-index: 100;
+  width: 250px;
+  box-shadow: 0 4px 10px rgb(255, 255, 255);
+}
+
+.overlay-textarea {
+  width: 100%;
+  margin-bottom: 6px;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.overlay-actions {
+  text-align: right;
+}
+
+.cancel-btn {
+  margin-right: 6px;
+  color: red;
+  background: white;
+  border: 1px solid red;
+  padding: 3px 9px;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+.save-btn {
+  background-color: #a855f7;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #9f41f7;
+}

@@ -1,0 +1,58 @@
+.b{
+  border: 2px solid blueviolet;
+}
+.scard{
+  min-width: 200px; 
+  margin: 0 10px;
+  height: 270px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+  transition: all 0.5s;
+}
+.scard > img{
+  width: 60px;
+}
+.scard> h5{
+ font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.scard> h5>span{
+  font-weight: 300;
+
+}
+
+.scard:hover{
+  background: #fff;
+  color: blueviolet;
+}
+
+.scard:hover p{
+  background: #fff;
+  color: gray;
+}
+.pcfm{
+  list-style: none;
+  color: whitesmoke;
+  font-weight: 500;
+  display: flex;
+  width: 70vw;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+.pcmc{
+  transition: all 1s;
+  
+}

@@ -1,0 +1,123 @@
+.tcontainer{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tcontainer> .intro{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.tmain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 100px;
+}
+.tf{
+    width: 30%;
+    display:flex;
+    justify-content: end ;
+    align-items: start;
+    flex-direction: column;
+}
+.tf p{
+    color: gray;
+    font-size: 50px;
+    font-family:   sans-serif;
+}
+.tf > div > img{
+    transform: rotate(180deg);
+    width: 100px;
+}
+.ts{
+    width: 55%;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: end;
+}
+.tstarimg{
+    width: 20px;
+    height: 20px;
+    margin: 0px 4px;
+}
+.tstardesc{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+.tstarheading{
+    font-size: 34px;
+    color: white;
+    font-weight: 700;
+}
+.tf > div {
+    line-height: 30px;
+}
+.btnwrapper{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.btnwrapper > .arrowleft ,.btnwrapper > .arrowright {
+        flex: 0.15;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.btnwrapper > .arrowleft >img ,.btnwrapper > .arrowright>img{
+    width: 50px;
+    cursor: pointer;
+}
+.textsteps{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    margin: 10px 0px;
+}
+.textsteps > .ts{
+    background: gray;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.ts > .bgwhite{
+    width: 25%;
+    height: 80%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #c155f3;
+    display: flex;
+    align-items: end;
+}
+.ts > .bgwhite >div{
+    height: 95%;
+    width: 100%;
+    background: transparent;
+    border-radius: 20px;
+    border: 3px solid #c155f3;
+}
+.ts > .smwhite{
+    width: 70%;
+}
+.ts > .smwhite >div{
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+.ts > .smwhite > div > .smallboxes{
+    background-color: #fff;
+    min-width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid #c155f3;
+}
